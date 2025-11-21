@@ -1,13 +1,12 @@
 /* Outer wrapper: background height controls available space */
 .logo-slider {
-    background: #000;
-    background: rgba(0, 0, 0, 0);
-    height: 50px;       /* change this freely — logos stay centered */
+    background: transparent;   /* or rgba(0,0,0,0) */
+    height: 50px;
     width: 100%;
     overflow: hidden;
     position: relative;
-    display: flex;       /* enable centering */
-    align-items: center; /* vertical centering */
+    display: flex;
+    align-items: center;
 }
 
 /* Track scrolls horizontally */
