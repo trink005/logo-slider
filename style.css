@@ -1,7 +1,7 @@
 /* Outer wrapper: background height controls available space */
 .logo-slider {
     background: #000;
-    opacity: 0
+    opacity: 0;
     height: 50px;       /* change this freely — logos stay centered */
     width: 100%;
     overflow: hidden;
